@@ -652,3 +652,115 @@ _______ */
    }
  
 }
+
+
+/* tablet
+_______ */
+
+@media (min-width:570px) and (max-width:990px){
+
+    .container{
+     max-width: 850px;
+     margin: 0 auto;
+    
+ }
+
+ .typo{
+     position: relative;
+     top:4.9rem;
+ }
+#title{
+font-size: 56px;
+color:#b0b0b0;
+}
+ .nav{
+
+ }
+
+ #keyboard_image_desktop{
+     width: 510px;
+     height: 500px;
+     object-fit: cover;
+     position: relative;
+     left: 5.8rem;
+     border-top-right-radius: 0.5px !important;
+     border-bottom-right-radius: 0.5px !important;
+ }
+
+ a{
+     width:80px !important;
+     position: relative;
+
+ }
+
+ .days{
+     position: relative;
+     top:-2.2rem;
+     left: 20rem;
+ }
+
+
+
+
+ #right_paper{
+     display: none;
+ }
+ #left_paper{
+     display: none;
+ }
+
+ .sub_content{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-top:50px;
+ }
+
+ .sub_content_typo{
+     display: flex;
+     margin-left: 10px;
+ }
+
+ #glass-and-keyboard{
+  width: 550px;
+  object-fit: cover;
+  position: relative;
+  left:-21.3rem;
+ }
+.overlay{
+    width:250px;
+}
+ #phone-and-keyboard{
+     width:250px;
+ }
+
+ #mechanical_description{
+     width: 485px;
+     position: relative;
+     left: 13.5rem;
+     top:2.3rem;
+ }
+
+ #content_title{
+     font-size: 32px;
+ }
+
+ .information{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ #content_description{
+     width:285px;
+ }
+
+ .content{
+     margin-bottom: 80px;
+ }
+
+}
+
+
+
+
+
+
