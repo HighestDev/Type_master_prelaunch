@@ -276,3 +276,123 @@ span{
     
     
     
+
+    /* desktop-screen  */
+    /* ______________ */
+    
+    @media (max-width:1200px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .container{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+
+    .content{
+        margin-left: 1rem;
+        /* align-items: center; */
+    }
+   
+
+    #right_paper{
+      position: absolute;
+      left:63.8rem;
+      width: 85px;
+      height: 35vh;
+      border-radius: 5px;
+    }
+    #left_paper{
+        width: 85px;
+        position:relative;
+        top: -40.8rem;
+        height: 35vh;
+    }
+
+    #content_description{
+        width: 285px;
+    }
+    #glass-and-keyboard{
+        width: 400px;
+        height: 400px;
+       position: relative;
+       left: -15px;
+    }
+    #keyboard_image_desktop{
+        width: 400px;
+        
+        position: relative;
+        left: -5px;
+     
+    }
+
+    #phone-and-keyboard{
+        height: 400px;
+        width:200px ;
+        
+    }
+
+    .overlay{
+        width:200px ;
+        height: 400px;
+       
+    }
+    #description{
+        
+        position: relative;
+        top: -13px;
+    }
+
+    .button_link{
+        margin-top:10px;
+    }
+
+
+    .sub_content_typo{
+
+        margin-left: -20px;
+        position: relative;
+        top:-35px;
+
+    }
+
+
+/* 
+    #bluetooth_svg{
+        position: relative;
+        left:0.5rem;
+        width: 65px;
+        border-radius: 15px;
+    } */
+
+
+    /* #bulb_svg{
+        position: relative;
+        left:0.5rem;
+        width: 70px;
+        border-radius: 15px;
+    } */
+
+
+    #content_description{
+      width: 205px; 
+      position: relative;
+      top:-35px;  
+    }
+
+    #mechanical_description{
+        width: 235px; 
+        position: relative;
+        top:15px;  
+      }
+
+    .bluetooth_txt{
+        position: relative;
+        top:-3px;
+    }
+}
+
