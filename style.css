@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+
    
     box-sizing: border-box;
     font-family: 'Barlow';
@@ -28,9 +29,9 @@
     background-color: #e8eff2;
     border-radius: 5px;
     border: none;
-    font-size: 17px;
+    font-size: 16px;
     color:rgba(22, 37, 66, 1);
-    font-weight: 900;
+    font-weight: bold;
     outline: none;
 }
 
@@ -68,6 +69,8 @@
     text-transform: uppercase;
     font-size: 32px;
     color:#162542;
+    font-family: Barlow;
+    font-weight: 850;
     width: 85px;
 }
 
@@ -83,6 +86,7 @@
 #mechanical_description{
  position: relative;
  top:35px;
+ font-weight:medium !important;
  line-height: 24.3px;
  color:#7b8bad;
 }
@@ -107,7 +111,7 @@
     margin-top:30px;
     font-family: 'Barlow',sans-serif;
     font-size: 20px;
-    font-weight: 450;
+    font-weight: medium;
 }
 .capitalize{
     text-transform: uppercase;
@@ -122,11 +126,13 @@
 }
 
 #keyboard_image_desktop{
-    width: 540px;
+    /* width: 540px; */
+    max-width: 65vw;
     height: 400px;
     border-radius: 30px;
     position: relative;
-    left: 15px;
+    left: 6.2rem;
+    overflow: hidden;
     
 }
 
@@ -147,9 +153,9 @@
     background-color: rgb(241, 103, 24);
     border-radius: 5px;
     border: none;
-    font-size: 17px;
+    font-size: 16px;
     color:#fff;
-    font-weight: 900;
+    font-weight: bold;
     outline: none;
 }
 
@@ -185,15 +191,16 @@ a{
 
 
 .information{
-    margin-top:3rem;       
+    margin-top:10rem !important;       
     display: flex;
+    overflow-x: hidden;
 }
 
 
 #computer_svg{
     background-color: rgb(241, 103, 24);
     padding:25px 25px 25px 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom:30px;
     
 }
@@ -201,14 +208,14 @@ a{
 #bulb_svg{
     background-color: rgb(241, 103, 24);
     padding:20px 25px 20px 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom:30px;
 }
 
 #bluetooth_svg{
     background-color: rgb(241, 103, 24);
     padding:20px 28px 25px 28px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom:30px;
 }
 
@@ -224,7 +231,7 @@ a{
 
 #content_description{
     font-weight: 500;
-    font-size:18px;
+    font-size:17px;
     color:#7b8bad;
     line-height: 24.6px;
     position: relative;
@@ -247,7 +254,7 @@ footer{
 }
 
 span{
-    font-weight: 800;
+    font-weight: 500;
 }
 
 
@@ -270,12 +277,40 @@ span{
     height: 30vh;
     width:63px;
     position: relative;
-    top:-39rem;
+    top:-45rem;
     left:-7rem;
     }
+
+
+    .capacity_txt{
+        font-family: Barlow;
+        font-weight: 800;
+    }
     
+    .bluetooth_txt{
+        font-family: Barlow;
+        font-weight: 800;
+    }
     
+    .title_battery{
+        font-family: Barlow;
+        font-weight: 800;
+    }
+
+    .sub_battery_text{
+        font-family: Barlow;
+        font-weight: 800;
+    }
+
+    .title_backlit{
+        font-family: Barlow;
+        font-weight: 800;
+    }
     
+    .txt_mode{
+        font-family: Barlow;
+        font-weight: 800;
+    }
 
     /* desktop-screen  */
     /* ______________ */
@@ -287,14 +322,25 @@ span{
         box-sizing: border-box;
     }
 
+    a{
+        margin-left: 120px;
+    }
     .container{
         max-width: 900px;
         margin: 0 auto;
     }
 
+    #title{
+        font-family: Barlow;
+        font-size:48px !important;
+        font-weight: 850 !important;
+       
+    }
 
     .content{
         margin-left: 1rem;
+  
+
         /* align-items: center; */
     }
    
@@ -309,7 +355,7 @@ span{
     #left_paper{
         width: 85px;
         position:relative;
-        top: -40.8rem;
+        top: -46.5rem;
         height: 35vh;
     }
 
@@ -348,7 +394,7 @@ span{
     }
 
     .button_link{
-        margin-top:10px;
+        margin-top:20px;
     }
 
 
@@ -393,7 +439,58 @@ span{
     .bluetooth_txt{
         position: relative;
         top:-3px;
+        width: 280px;
     }
+
+
+    .capacity_txt{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+    
+    .bluetooth_txt{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+    
+    .title_battery{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+
+    .sub_battery_text{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+
+    .title_backlit{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+    
+    .txt_mode{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px;
+    }
+
+    .title_computer{
+        font-family: Barlow;
+        font-weight: 800;
+        font-size:23px !important;
+       
+    }
+
+   
+.content1{
+    margin-left: -65px;
+}
+
 }
 
 
@@ -405,6 +502,9 @@ _______ */
 
 @media  (min-width:270px) and (max-width:570px){
 
+    .nav{
+        margin-left: 20px;
+    }
     
     .container{
         max-width: 420px;
@@ -419,6 +519,7 @@ _______ */
     #btn_order{
         padding: 13px 13px 13px 13px;
         font-size:16px;
+        
     }
 
     #order_button{
@@ -429,7 +530,7 @@ _______ */
         border: none;
         font-size: 16px;
         color:rgba(22, 37, 66, 1);
-        font-weight: 900;
+        font-weight: bold;
         outline: none;
     }
     
@@ -452,6 +553,7 @@ _______ */
         font-size:55px;
         font-weight:bolder;
         line-height: 55px;
+        margin-left:20px;
     }
 
     #description{
@@ -459,15 +561,18 @@ _______ */
         margin-right:30px;
         font-size:18px;
         font-weight: 430;
+        margin-left:20px;
     }
 
     #keyboard_image_desktop{
-        width: 450px;
-        height:350px;
+        
+     width:950px !important;
+       height: 55vh;
+       max-width: 80vw;
         position: relative;
         top:-50px;
-        left:2px;
-        object-fit: cover;
+        left:3.5rem;
+      
         border-top-right-radius: 0.5px !important;
         border-bottom-right-radius:0.5px;
     }
@@ -501,11 +606,12 @@ _______ */
         width: 250px;
         height: 225px;
         position: relative;
-        left: -15rem;
+        left: -20rem;
     }
 
     .button_link{
         margin-bottom: 80px;
+        margin-left: 20px;
     }
 
     #content_title{
@@ -516,11 +622,13 @@ _______ */
     }
 
     #content_description{
+        padding:5px;
         width: 450px;
-        margin-left:5px;
-        margin-right: 10px;
+        right: 5rem;
         position: relative;
-        left: -5.5rem;
+        left: -5rem;
+        font-weight: 500;
+      
     }
 
     .information{
@@ -596,6 +704,7 @@ _______ */
         text-transform: uppercase;
         position: relative;
         left: 50px;
+    
     }
 
     .txt_mode{
@@ -614,9 +723,9 @@ _______ */
     }
 
     #mechanical_description{
-        width: 385px;
+        width: 465px;
         position: relative;
-        left:-55px;
+        left:-70px;
     }
 
    .bluetooth_txt{
@@ -644,13 +753,38 @@ _______ */
        font-size:27px;
    }
 
-   .capacity_txt{
-       /* font-weight: 300 !important; */
-       font-size: 25px;
-       position: relative;
-       left: 45px;
-   }
  
+ 
+
+   .capacity_txt{
+    font-family: Barlow;
+    font-weight: 900;
+}
+
+.bluetooth_txt{
+    font-family: Barlow;
+    font-weight: 900;
+}
+
+.title_battery{
+    font-family: Barlow;
+    font-weight: 900;
+}
+
+.sub_battery_text{
+    font-family: Barlow;
+    font-weight: 800;
+}
+
+.title_backlit{
+    font-family: Barlow;
+    font-weight: 800;
+}
+
+.txt_mode{
+    font-family: Barlow;
+    font-weight: 800;
+}
 }
 
 
@@ -673,8 +807,10 @@ _______ */
 font-size: 56px;
 color:#b0b0b0;
 }
- .nav{
-
+ #description{
+   width:450px;
+   font-weight: 400;
+   /* font-size:17px !important; */
  }
 
  #keyboard_image_desktop{
@@ -696,7 +832,7 @@ color:#b0b0b0;
  .days{
      position: relative;
      top:-2.2rem;
-     left: 20rem;
+     left: 23.8rem;
  }
 
 
