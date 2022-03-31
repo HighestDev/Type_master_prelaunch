@@ -4,13 +4,16 @@
 *{
     margin: 0px;
     padding: 0px;
-
-   
     box-sizing: border-box;
     font-family: 'Barlow';
+    /* border: 1px solid green; */
+}
+body{
+    overflow-x: hidden;
 }
 
 .container{
+    /* border:3px solid red; */
     max-width: 1125px;
     margin: 0 auto;
 }
@@ -131,7 +134,7 @@
     height: 400px;
     border-radius: 30px;
     position: relative;
-    left: 6.2rem;
+    left: 5rem;
     overflow: hidden;
     
 }
@@ -785,6 +788,10 @@ _______ */
     font-family: Barlow;
     font-weight: 800;
 }
+
+.content1{
+    margin-left: 80px;
+}
 }
 
 
@@ -831,11 +838,13 @@ color:#b0b0b0;
 
  .days{
      position: relative;
-     top:-2.2rem;
-     left: 23.8rem;
+     top:0.0rem;
+     left: 0.5rem;
  }
 
-
+.content1{
+    margin-left: 30px;
+}
 
 
  #right_paper{
