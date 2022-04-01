@@ -16,6 +16,7 @@ body{
     /* border:3px solid red; */
     max-width: 1125px;
     margin: 0 auto;
+    /* margin-right: 5px; */
 }
 
 
@@ -196,6 +197,7 @@ a{
 .information{
     margin-top:10rem !important;       
     display: flex;
+    justify-content: space-between !important;
     overflow-x: hidden;
 }
 
@@ -625,11 +627,11 @@ _______ */
     }
 
     #content_description{
-        padding:5px;
+        padding:15px;
         width: 450px;
-        right: 5rem;
+        /* right: 5rem; */
         position: relative;
-        left: -5rem;
+        left: -5.9rem;
         font-weight: 500;
       
     }
@@ -706,6 +708,7 @@ _______ */
     .title_backlit{
         text-transform: uppercase;
         position: relative;
+        font-size: 27px !important;
         left: 50px;
     
     }
@@ -713,6 +716,7 @@ _______ */
     .txt_mode{
         text-transform: uppercase;
         position: relative;
+        font-size: 26px;
         left: 90px;
     }
 
