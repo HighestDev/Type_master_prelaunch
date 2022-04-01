@@ -15,6 +15,7 @@ The project can be viewed on multiple devices which allows the users to see the 
 
 
 #### Project image
+![](images/project_overview.jpg)
 
 ### Tools for building project
 **Html**
