@@ -7,12 +7,18 @@ The project can be viewed on multiple devices which allows the users to see the 
 
 
 
-## Responsive view ports
+### Responsive view ports
 1.Mobile screen (max-width:350 >=570)
 2.Desktop Screen(max-width:1200)
 3.Labtop Screen(max-width:100)
 4.Tablet Screen(max-width:570 >= 730)
 
+
+#### Project image
+
+### Tools for building project
+**Html**
+**Csss**
 
 ## Author
 Baah Danso Kenneth
